@@ -1,17 +1,21 @@
 # capstone_canada
+# Student Feedback / Evaluation Form
 
-A new Flutter project.
+**Name:** Keith Charven S. Canada
+**Workstation Number:** [Insert your workstation number here]
 
-## Getting Started
+## Project Description
+The **Student Feedback / Evaluation Form** is a mobile application built with Flutter designed to streamline the collection of anonymous academic feedback. It provides students with a secure, authentication-free platform to evaluate educators and events, fostering transparent communication within the campus. 
 
-This project is a starting point for a Flutter application.
+By eliminating complex admin dashboards and user logins, the application focuses entirely on rapid feedback submission and public transparency, displaying raw average ratings accessible to the student body.
 
-A few resources to get you started if this is your first Flutter project:
+### Core Features
+* **Teacher & Event Directory:** Browse a structured list of faculty members and their assigned subjects.
+* **Anonymous Feedback System:** Submit comprehensive evaluations combining a 1–5 star rating scale with open-ended written comments.
+* **Transparent Scoring:** Instantly view raw average ratings for each teacher on the main directory screen.
+* **Minimalist Navigation:** Built with standard Material 3 design principles for a straightforward, distraction-free user experience.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Technical Scope
+* **Framework:** Flutter (Dart)
+* **Architecture:** Modular structure (`models/`, `screens/`, `widgets/`)
+* **Data Handling:** Seeded dummy data (Firebase backend CRUD integration scheduled for Week 2)
